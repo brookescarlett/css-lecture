@@ -1,4 +1,4 @@
-## CSS
+# CSS
 
 ### Objectives
 * Understand the anatomy of a declaration block
@@ -7,11 +7,9 @@
 * Go over custom CSS and flex box
 
 ### Why CSS is important
-* `<a href="http://www.csszengarden.com/" >Zen Garden</a>`
+* `<a href="http://www.csszengarden.com/">Zen Garden</a>`
 
 ### Key Principles of CSS
-* Creating a declaration block:
-
 ```css
   ul.my-things > li {
     color: black;
@@ -21,6 +19,7 @@
     font-weight: bold;
   }
 ```
+* Creating a declaration block
   * `p`: selector (selectors are used to select the HTML elements that you want to style)
   * `ul.my-things > li`: uses a child combinator to target specific elements on the page
     * Elements that match the second selector that are also immediate children of the first selector
@@ -53,9 +52,9 @@
   * `p::after` (inserts content after every `p` tag)
 
 ### Bringing in external resources
-* Semantic UI, Material UI, Bootstrap
-* Grid
-* Google Fonts
+* Semantic UI, Material UI, Bootstrap - Content delivery networks that provide easy ways to style content
+* Grid - in Semantic UI grid divides horizontal space into 16 columns; automatically spearated by gutters
+* Google Fonts - Library of fonts that can be imported to enhance style of markup
 
 ### Flexbox and writing custom CSS
 * Flexbox: direction agnostic layout that helps to organize `divs` on an HTML page
@@ -65,3 +64,5 @@
   justify-content: center;
   align-items: center;
 }```
+* Favicon
+* `<head>` v. `<body>`
