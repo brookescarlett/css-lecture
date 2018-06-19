@@ -41,7 +41,10 @@
 
 ### Best Practices
 * Use `class` over `id` when adding selectors to HTML tags
-* BEM (Block element modifier)
+* BEM (Block Element Modifier)
+  * Block: `header`, `container`, `menu`, `checkbox`, `input`
+  * Element: list item, checkbox caption, header title
+  * Modifier: `disabled`, `highlighted`, `checked`, fixed, size big, color yellow
 
 ### Chrome Dev Tools
 * Can test/edit CSS in real time in the Chrome browser
