@@ -58,12 +58,13 @@
 
 ### Flexbox and writing custom CSS
 * Flexbox: direction agnostic layout that helps to organize `divs` on an HTML page
-* ```div {
+* fdas
+``` div {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-}```
+} ```
 
 ### Bonus materials
 * Favicon
