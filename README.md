@@ -36,7 +36,7 @@ p {
 ### Chrome Dev Tools
 * Can test/edit CSS in real time in the Chrome browser
 * Pseudo-classes: used to define special states of an element, where applicable
-  * `a:hover ` (targets a link when hovered over)
+  * `a:hover` (targets a link when hovered over)
   * `a:active` (targets a link when active, used in nav bars )
   * `div:first-child` (targets the first nested child inside of a `div` )
   * `input:optional` (makes an `input` within a `form` optional)
@@ -48,4 +48,10 @@ p {
 * Google Fonts
 
 ### Flexbox and writing custom CSS
-* Flexbox
+* Flexbox: direction agnostic layout that helps to organize `divs` on a page.
+* ```div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}```
