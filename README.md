@@ -7,22 +7,32 @@
 * Go over custom CSS and flex box
 
 ### Why CSS is important
-* ```<a href="http://www.csszengarden.com/" >Zen Garden</a>```
+* `<a href="http://www.csszengarden.com/" >Zen Garden</a>`
 
 ### Key Principles of CSS
 * Creating a declaration block:
+
 ```css
-p {
-  font-weight: bolder;
-}```
-  * p: selector (selectors are used to select the HTML elements that you want to style);
-  * font-weight: attribute or property name;
-  * bolder: value
+  ul.my-things > li {
+    color: black;
+  }
+
+  p {
+    font-weight: bold;
+  }
+```
+  * `p`: selector (selectors are used to select the HTML elements that you want to style)
+  * `ul.my-things > li`: uses a child combinator to target specific elements on the page
+    * Elements that match the second selector that are also immediate children of the first selector
+  * `font-weight`: attribute or property name
+  * `bolder`: value
 * The Box Model
   * Padding: distance from the inside of the `div` to the border
   * Border: border around `div`
   * Margin: distance from exterior content to the `div`
 * Cascading Stylesheet
+  * Cascading: Cascading means that styles can cascade from one stylesheet to another, meaning that we can use multiple stylesheets at a time
+  * The files are read from most general to most specific, so the most specific styles will be the ones that ultimately appear on the page
   * Three ways to write css in relation to an HTML document:
     * In-line styling: ```<p style="color: red">in line!</p>```
     * Internal stylesheet: ```<head> <style> p {color: red;}</style> </head>```
