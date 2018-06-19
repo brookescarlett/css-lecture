@@ -15,7 +15,7 @@
 p {
   font-weight: bolder;
 }```
-  * p: selector;
+  * p: selector (selectors are used to select the HTML elements that you want to style);
   * font-weight: attribute or property name;
   * bolder: value
 * The Box Model
@@ -31,7 +31,7 @@ p {
   * Will always look to nearest definition, if style is declared multiple times.
 
 ### Best Practices
-* Use `class` over `id` when adding `TK` to `TK`
+* Use `class` over `id` when adding selectors to HTML tags
 
 ### Chrome Dev Tools
 * Can test/edit CSS in real time in the Chrome browser
