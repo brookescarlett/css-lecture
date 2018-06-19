@@ -48,7 +48,7 @@ p {
 * Google Fonts
 
 ### Flexbox and writing custom CSS
-* Flexbox: direction agnostic layout that helps to organize `divs` on a page.
+* Flexbox: direction agnostic layout that helps to organize `divs` on an HTML page
 * ```div {
   display: flex;
   flex-direction: row;
