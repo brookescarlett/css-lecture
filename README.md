@@ -41,6 +41,7 @@
 
 ### Best Practices
 * Use `class` over `id` when adding selectors to HTML tags
+* BEM (Block element modifier)
 
 ### Chrome Dev Tools
 * Can test/edit CSS in real time in the Chrome browser
@@ -52,8 +53,7 @@
   * `p::after` (inserts content after every `p` tag)
 
 ### Bringing in external resources
-* Semantic UI, Material UI, Bootstrap - Content delivery networks that provide easy ways to style content
-* Grid - in Semantic UI grid divides horizontal space into 16 columns; automatically spearated by gutters
+* Semantic UI, Material UI, Bootstrap - CSS Frameworks that provide easy ways to style content
 * Google Fonts - Library of fonts that can be imported to enhance style of markup
 
 ### Flexbox and writing custom CSS
@@ -64,5 +64,7 @@
   justify-content: center;
   align-items: center;
 }```
+
+### Bonus materials
 * Favicon
-* `<head>` v. `<body>`
+* Animated gradients
