@@ -1,0 +1,67 @@
+/* Global Font Styling */
+h1, h2, h3 {
+  font-family: 'Playfair Display' !important
+}
+
+h4, p {
+  font-family: 'Cutive Mono' !important
+}
+
+/* Nav Bar */
+.custom-nav {
+  background-color: white;
+  padding: 20px;
+}
+
+.custom-nav a {
+  font-family: 'Cutive Mono';
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+
+/* Main Header  */
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url('https://images.unsplash.com/photo-1520500807606-4ac9ae633574?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e99db5c13bb036d5ab3927b27cd640ce&auto=format&fit=crop&w=1650&q=80');
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  filter: grayscale(100%);
+  margin-bottom: 0px;
+}
+
+.main-text {
+  color: white;
+  z-index: 999;
+  margin-top: 0;
+}
+
+.main-text h2 {
+  font-size: 48px;
+  padding: 15px 0px 10px 0px;
+}
+
+.main-text h4 {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+/* Mission */
+.mission {
+  background-color: black;
+  color: white;
+  margin-top: 0px;
+  padding: 30px;
+}
+
+
+/* Services */
+.services {
+  padding: 30px 0px;
+  background-color: white;
+}
