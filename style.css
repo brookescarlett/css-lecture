@@ -1,4 +1,4 @@
-/* Global Font Styling */
+/* Global */
 h1, h2, h3 {
   font-family: 'Playfair Display' !important
 }
@@ -64,4 +64,32 @@ h4, p {
 .services {
   padding: 30px 0px;
   background-color: white;
+}
+
+.sub-head {
+  font-family: 'Cutive Mono';
+  font-weight: bolder;
+}
+
+.services-text {
+  font-family: 'Cutive Mono'
+}
+
+.bw {
+  filter: grayscale(100%);
+}
+
+#service {
+  margin: 30px 0px;
+  padding: 30px 0px;
+}
+
+
+/* Form */
+.form {
+  padding: 30px;
+}
+
+.form-text-container {
+  margin-top: 20px;
 }
