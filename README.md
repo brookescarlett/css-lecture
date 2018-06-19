@@ -15,7 +15,7 @@
 p {
   font-weight: bolder;
 }```
-  * p: selector string;
+  * p: selector;
   * font-weight: attribute or property name;
   * bolder: value
 * The Box Model
@@ -35,7 +35,12 @@ p {
 
 ### Chrome Dev Tools
 * Can test/edit CSS in real time in the Chrome browser
-* Pseudo-classes: `TK`
+* Pseudo-classes: used to define special states of an element, where applicable
+  * `a:hover ` (targets a link when hovered over)
+  * `a:active` (targets a link when active, used in nav bars )
+  * `div:first-child` (targets the first nested child inside of a `div` )
+  * `input:optional` (makes an `input` within a `form` optional)
+  * `p::after` (inserts content after every `p` tag)
 
 ### Bringing in external resources
 * Semantic UI, Material UI, Bootstrap
@@ -43,4 +48,4 @@ p {
 * Google Fonts
 
 ### Flexbox and writing custom CSS
-* Flexbox 
+* Flexbox
