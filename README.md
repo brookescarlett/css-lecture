@@ -1,6 +1,15 @@
 # CSS
 
-### Objectives
+### Road Map
+* Why CSS IS Important
+* Key Principles of CSS
+* Best Practices
+* Chrome Dev Tools
+* External resources (Third-party libraries)
+* Custom CSS
+* Bonus Materials
+
+### SWBAT
 * Understand the anatomy of a declaration block
 * Learn how to test CSS with Chrome Dev Tools
 * Create custom layouts using Semantic UI and Grid
