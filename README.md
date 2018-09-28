@@ -12,7 +12,7 @@
 ### SWBAT
 * Understand the anatomy of a declaration block
 * Learn how to test CSS with Chrome Dev Tools
-* Create custom layouts using Semantic UI and Grid
+* Create custom layouts using Semantic UI
 * Go over custom CSS and flex box
 
 ### Why CSS is important
